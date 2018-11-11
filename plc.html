@@ -1,20 +1,72 @@
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
-<header class="header">
+
+<div class="header" id="header">
   <h3 class="logo"><a href="#">Giant Piece-O-Foam</a><img id="header-img" src="https://sep.yimg.com/ay/yhst-51964671464679/giant-ribbed-mat-5.gif" alt="Giant piece of foam"></h3>
   <nav id="nav-bar">
     <ul>
-      <li class="nav-link"><a href="#">What?</a></li>
-      <li class="nav-link"><a href="#">Pricing</a></li>
-      <li class="nav-link"><a href="#">Reserve</a></li>
+      <li><a class="nav-link" href="#main">What?</a></li>
+      <li><a class="nav-link" href="#pricing">Pricing</a></li>
+      <li><a class="nav-link" href="#reserve">Reserve</a></li>
     </ul>
   </nav>
-</header>
-<div class="main">
+</div>
+<div class="main" id="main">
   <h1>Finally, Your Very Own Giant Piece Of Foam!</h1>
   <h4>What's so great about a giant piece of foam? This.</h4>
   <section id="vid">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/3aysgU_PJbA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/3aysgU_PJbA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </section>
+</div>
+<div class="pricing">
+  <section id="pricing">
+    <h1>Absurd Pricing Guaranteed!</h1>
+    <h4>Pricing Tiers</h4>
+  </section>
+</div>
+<div class="cards">
+  <article class="card">
+    <header class="card-header">
+      <h4>10-Footer</h4>
+    </header>
+    <img src="https://sep.yimg.com/ay/yhst-51964671464679/giant-ribbed-mat-5.gif" alt="10-foot piece of foam">
+    <div class="content">
+      <p>10-foot Giant Piece-O-Foam</p>
+      <p>Only <b>$449.99!</b></p>
+    </div>
+    <footer><button>Reserve Now!</button></footer>
+  </article>
+  <article class="card">
+    <header class="card-header">
+      <h4>15-Footer</h4>
+    </header>
+    <img src="https://sep.yimg.com/ay/yhst-51964671464679/giant-ribbed-mat-5.gif" alt="15-foot piece of foam">
+    <div class="content">
+      <p>15-foot Giant Piece-O-Foam</p>
+      <p>Only <b>$649.99!</b></p>
+    </div> 
+    <footer><button>Reserve Now!</button></footer>
+  </article>
+  <article class="card">
+    <header class="card-header">
+      <h4>20-Footer</h4>
+    </header>
+    <img src="https://sep.yimg.com/ay/yhst-51964671464679/giant-ribbed-mat-5.gif" alt="20-foot piece of foam">
+    <div class="content">
+      <p>20-foot Giant Piece-O-Foam</p>
+      <p>Only <b>$849.99!</b></p>
+    </div>
+    <footer><button>Reserve Now!</button></footer>
+  </article>
+</div>
+<section class="reserve" id="reserve">
+  <form id="form" action="https://www.freecodecamp.com/email-submit">
+    <h3>Ready for your own? Submit your email address for more information!</h3>
+    <input name="email" id="email" type="email" placeholder="YourEmail@Here" required/>
+    <input id="submit" type="submit" value="Fire in the Hole!" class="btn"></input>
+  </form>
+</section>
+<div class="footer"> A <a href="https://www.freecodecamp.org" target="_blank"><img id="img1" src="https://raw.githubusercontent.com/FreeCodeCamp/assets/master/assets/logos/fcc_puck600.png"></a> project<br><p> Coded with <i class="fas fa-hand-peace"></i><i class="fas fa-heart"></i> and <i class="fas fa-hand-rock"></i> by <a class="brenton" href="https://www.linkedin.com/in/brentonotis/Brenton Otis" target="_blank">Brenton</a></p>
 </div>
